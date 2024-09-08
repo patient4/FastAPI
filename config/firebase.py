@@ -2,6 +2,7 @@ import firebase_admin
 from firebase_admin import firestore, credentials
 from modal.todo import Todo
 
+
 class Firebase:
     """
     A class to interact with Firebase Firestore for CRUD operations on Todo items.
@@ -10,7 +11,6 @@ class Firebase:
     def __init__(self) -> None:
         """
         Initializes the Firebase client with the provided credentials.
-
         This method sets up the Firebase application using a service account key
         and initializes the Firestore client. However feel free to add your service account.json
         """

@@ -1,3 +1,4 @@
+
 ./__pycache__/main.cpython-311.pyc
 ./config/__pycache__/firebase.cpython-311.pyc
 ./config/firebase.py
@@ -5,3 +6,5 @@
 ./routes/__pycache__/todo.cpython-311.pyc
 ./schema/__pycache__/todo.cpython-311.pyc
 ./auth/fastapi.json
+./auth/firebase.json
+./env/
