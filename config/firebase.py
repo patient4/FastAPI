@@ -3,7 +3,7 @@ import firebase_admin
 from firebase_admin import firestore, credentials
 
 from modal.todo import Todo
-
+ 
 # Application Default credentials are automatically created.
 
 class Firebase():
