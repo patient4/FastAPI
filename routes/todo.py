@@ -4,7 +4,6 @@ from fastapi.templating import Jinja2Templates
 from CONSTANTS import COLLECTION
 from config.firebase import Firebase
 from modal.todo import Todo
-from schema.todo import todoEntity
 
 router = APIRouter()
 
@@ -30,8 +29,7 @@ async def read_todos(request: Request):
     # Render and return the template with the todos data
     return templates.TemplateResponse("index.html", {"request": request, "todos": todos})
 
-@router.get('/db')
-async def db_init(request: Request):
+
     """
     Initializes the database. This is a placeholder endpoint.
 
