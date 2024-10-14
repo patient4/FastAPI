@@ -66,4 +66,3 @@ class Firebase:
         Returns:
             None: The Firestore `update` operation does not return a reference.
         """
-        # Placeholde
